@@ -125,7 +125,9 @@ arr.sort()
 // }
 
 
+console.log(arr.sort((a,b)=>a-b) )// sorts ascending
 
+console.log(arr.sort((a,b)=>b-a)) //s0rts descending
 
 
 
