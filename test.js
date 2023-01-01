@@ -84,53 +84,58 @@ var M = [
 // 1,l-1  => l-1,l-1
 // l,l => l,0
 
-let spr =(m)=>{
+// let spr =(m)=>{
 
-    let ts ={r:0,c:0}
-    let te ={r:0,c:m[0].length-1}
-    let bs ={r:m.length-1,c:0}
-    let be ={r:m.length-1,c:m[0].length-1}
-    let count=0
-    console.log(ts.c<te.c&&bs.c<be.c&&ts.r<be.r&&te.r<be.r)
+//     let ts ={r:0,c:0}
+//     let te ={r:0,c:m[0].length-1}
+//     let bs ={r:m.length-1,c:0}
+//     let be ={r:m.length-1,c:m[0].length-1}
+//     let count=0
+//     console.log(ts.c<te.c&&bs.c<be.c&&ts.r<be.r&&te.r<be.r)
 
-    while(ts.c<te.c&&bs.c<be.c&&ts.r<be.r&&te.r<be.r){
-        for(let i=ts.c;i<=te.c;i++){
-            console.log(m[ts.r][i])
-            count++
-        }
-        ts.r++
-        te.r++
-        for(let i=te.r;i<=be.r;i++){
-            console.log(m[i][te.c])
-            count++
-            // console.log(i,te.c)
-        }
-        te.c--
-        be.c--
-        for(let i=be.c;i>=bs.c;i--){
-            console.log(m[be.r][i])
-            count++
-        }
-        be.r--
-        bs.r--
-        for(let i=bs.r;i>=ts.r;i--){
-            console.log(m[i][ts.c])
-            count++
-            // console.log(i,te.c)
-        }
-        ts.c++
-        bs.c++
+//     while(ts.c<te.c&&bs.c<be.c&&ts.r<be.r&&te.r<be.r){
+//         for(let i=ts.c;i<=te.c;i++){
+//             console.log(m[ts.r][i])
+//             count++
+//         }
+//         ts.r++
+//         te.r++
+//         for(let i=te.r;i<=be.r;i++){
+//             console.log(m[i][te.c])
+//             count++
+//             // console.log(i,te.c)
+//         }
+//         te.c--
+//         be.c--
+//         for(let i=be.c;i>=bs.c;i--){
+//             console.log(m[be.r][i])
+//             count++
+//         }
+//         be.r--
+//         bs.r--
+//         for(let i=bs.r;i>=ts.r;i--){
+//             console.log(m[i][ts.c])
+//             count++
+//             // console.log(i,te.c)
+//         }
+//         ts.c++
+//         bs.c++
         
 
        
-    }
+//     }
 
-    console.log(count)
-}
+//     console.log(count)
+// }
 
 
-function f(x=2,y=3){
-    return x**y
-}
+// function f(x=2,y=3){
+//     return x**y
+// }
 
-console.log(f(undefined,2))
+// console.log(f(undefined,2))
+
+
+// متتاليه فابولتشي
+
+// 
